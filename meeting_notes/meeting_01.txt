@@ -1,0 +1,62 @@
+Date: November 4, 2026
+Time: 7:00 PM EST
+Recorder: Tyler Howard
+
+Attendees:
+    Tyler Howard
+
+
+Agenda:
+    Identify possible project ideas
+
+    Feasibility Study (Due Nov 9)
+        Is this plan technically feasible?
+        Is this plan legal?
+        Is this plan operationally feasible?
+        Is this plan feasible within a reasonable period of time?
+        Is this plan economically feasible? Finally, we reach the most obvious of the feasibility questions. This is where you will assess whether or not this project will provide the supposed value needed to justify its cost. You can assess this area of feasibility based on several different factors, including:
+        Projected profitability
+        The total cost of completion
+        Estimated investment by outside parties
+        Does the system contribute to the overall objectives of the organization?
+        Can the system be implemented within the schedule and budget using current technology?
+        Can the system be integrated with other systems that are used?
+
+    Risk Assessment Doc (Due Nov 9)
+        Here are some common major risk categories that can occur in real-world IT projects. 
+        Do a little research on the risk types below and write about what could potentially occur in the software development project in this course.
+        Take the opportunity to be creative and do some pretending that this is a real world project. 
+            Cost Risk
+            Schedule Risk
+            Performance Risk
+            Operational Risk
+            Technology Risk
+            Communication Risk
+            Scope Creep Risk
+            Skills Resource Risk
+    
+    Project Plan (Due Nov 9)
+        Introduction - the introduction should briefly describe the objectives of the project and set out any constraints of the project
+        Project organization - list the team members and the roles of the members of the team.
+        Risk Analysis - your previously completed risk analysis should be included
+        Hardware and software requirements of the software and also the development environment (language, etc.)
+        Work breakdown - how the project is broken into activities.
+        UML Diagrams - To learn more about this very important section of your project plan read about UML Diagrams
+        Project schedule - dependencies between activities
+        Monitoring and reporting mechanisms - What tools were chosen to help with communication, collaboration, and scheduling.
+        Appendix - The appendix should include a summary of the activities identified in this project plan. This summary should include the following information in either a table or excel spreadsheet form:
+            Number identifying the activity
+            Short description of the activity
+            Estimate the time it will take to complete the activity
+            List of any activities on which the current activity relies (dependencies)
+        
+
+
+General Updates:
+
+
+
+
+Action Items (Description / Assignee):
+
+
