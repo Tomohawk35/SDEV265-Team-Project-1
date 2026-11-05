@@ -4,6 +4,8 @@ Recorder: Tyler Howard
 
 Attendees:
     Tyler Howard
+    Andrew Smith
+    Morgan Taylor
 
 
 Agenda:
@@ -53,10 +55,56 @@ Agenda:
 
 
 General Updates:
+    Desired Roles
+        Andrew - Design
+        Morgan - Support programmer, design
+        Tyler Howard - Programmer
+
+    Game Ideas
+        candy crush / crane (andrew)
+        maze (unlock passageways / find keys to get to next area)
+        settlers of catan-themed resource management game
+
+    Project Plan - make a simple, short video game using the Godot game engine
+
+    Feasibility Study (Due Nov 9)
+        Assumptions
+            Team is acting as an established game studio trying to develop a game for release in a short 2 month period. 
+
+        Is this plan technically feasible?
+            Yes, assuming game scope is kept small and game design is not overly complex, the programming side of things should be pretty straight forward
+        Is this plan legal?
+            Yes, game will be made, not monetized, and use free or personally created assets
+        Is this plan operationally feasible?
+            Yes, assuming game scope is kept small and team members are timely about completing their actions
+        Is this plan feasible within a reasonable period of time?
+            Yes, assuming small scope
+        Is this plan economically feasible? 
+            yes, should be free. Godot is open-source. Assets will be free or custom. Many free online tutorials if needed.
+        Finally, we reach the most obvious of the feasibility questions. 
+        This is where you will assess whether or not this project will provide the supposed value needed to justify its cost. 
+        You can assess this area of feasibility based on several different factors, including:
+            Projected profitability
+                $0 - no intention of releasing or monetizing. If anything, we could just put this on itch.io for free. 
+            The total cost of completion
+                $0
+            Estimated investment by outside parties
+                $0 - nobody knows or cares that we are making this
+        Does the system contribute to the overall objectives of the organization?
+            Yes, we are a game studio trying to put out commercial games
+        Can the system be implemented within the schedule and budget using current technology?
+            Yes, assuming small scope, although additional time may needed (hypothetically) for testing and polishing
+        Can the system be integrated with other systems that are used?
+            Standalone game, not integration needed with other systems. 
 
 
 
 
 Action Items (Description / Assignee):
+    Tyler to start putting together Feasibility Study doc to finish up at tomorrow's meeting
 
+Goals for next meeting: 
+    Confirm game idea
+    Create shared slideshow to start compiling Project Plan
+    Delegate sections of slideshow to individuals to be completed by Saturday so they can be reviewed
 
