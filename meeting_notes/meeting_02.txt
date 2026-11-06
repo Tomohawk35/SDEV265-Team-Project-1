@@ -1,0 +1,119 @@
+Date: November 5, 2026
+Time: 4:00 PM EST
+Recorder: Tyler Howard
+
+Attendees:
+    Tyler Howard
+    Andrew Smith
+    Morgan Taylor
+    Alex Sampson
+
+
+Agenda:
+    Identify possible project ideas
+
+    Feasibility Study (Due Nov 9)
+
+    Risk Assessment Doc (Due Nov 9)
+
+    Project Plan (Due Nov 9)
+        Project organization - list the team members and the roles of the members of the team.
+        UML Diagrams - To learn more about this very important section of your project plan read about UML Diagrams
+        Project schedule - dependencies between activities
+
+
+
+General Updates:
+
+    OBJECTIVE: We are going to make a maze traversal game where the player has to find keys to unlock doorways or solve a math problem to get a key
+
+    Project schedule - dependencies between activities
+            Meetings - Sunday 8PM
+            Andrew is out Week 6
+    
+    Project organization - list the team members and the roles of the members of the team.
+            Organizer - Tyler Howard
+            Primary Programmers - Tyler Howard, Alex Sampson
+            Design - Andrew Smith, Morgan Taylor
+            Tester - Alex Sampson, Andrew Smith
+
+            TBD - Tyler Mathes, Jalen Gillespie
+
+
+    Feasibility Study (Due Nov 9)
+        Assumptions
+            Team is acting as an established game studio trying to develop a game for release in a short 2 month period. 
+            Making an educational game for kids
+
+        Is this plan technically feasible?
+            Yes, assuming game scope is kept small and game design is not overly complex, the programming side of things should be pretty straight forward
+            using a game engine (Godot) 
+            Can use procedural generation for maze layouts
+
+        Is this plan legal?
+            Yes, game will be made, not monetized, and use free or personally created assets. no copyright on maze game structure
+
+        Is this plan operationally feasible?
+            Yes, assuming game scope is kept small and team members are timely about completing their actions
+
+        Is this plan feasible within a reasonable period of time?
+            Yes, assuming small scope
+
+        Is this plan economically feasible? 
+            yes, should be free. Godot is open-source. Assets will be free or custom. Many free online tutorials if needed.
+
+        Finally, we reach the most obvious of the feasibility questions. 
+        This is where you will assess whether or not this project will provide the supposed value needed to justify its cost. 
+        You can assess this area of feasibility based on several different factors, including:
+            Projected profitability
+                Humongous Entertainment is a widely known publisher of educational / kid's video games. Their average revenue per game is $50,608 and median revenue per game is $29,979. Total lifetime revenue is $1.8mil.
+                We can assume if a quality product is distributed, revenue potential could be $20,000 due to lack of exposure
+
+            The total cost of completion
+                $0 - no intention of buying any assets 
+
+            Estimated investment by outside parties
+                $0 - nobody knows or cares, could maybe get an investor if the game was popular
+
+        Does the system contribute to the overall objectives of the organization?
+            Yes, we are a game studio trying to put out educational games for kids
+
+        Can the system be implemented within the schedule and budget using current technology?
+            Yes, assuming small scope, although additional time may needed (hypothetically) for testing and polishing
+            Godot is free, plenty of free assets on itch.io
+
+        Can the system be integrated with other systems that are used?
+            Standalone game, not integration needed with other systems. 
+
+    
+    UML 
+        Maze layouts
+            Procedural generation
+                Frozen first 10 levels, afterwards unlock endless mode (aspirational)
+            1 Start Point, 1 Exit Point
+            Doors that require keys
+            Enemies that prompt a math problem
+            Keys are placed at dead ends, can be multiple keys in a maze and multiple Doors
+        UI 
+            Track keys, level number, score, time
+            score is based on completion of questions and level completion (only for endless mode)
+            Player gets three hearts, answer question incorrectly results in one less heart. 
+            0 hearts = game over
+
+
+
+
+
+Action Items (Description / Assignee):
+    Tyler to start putting together Feasibility Study doc to finish up at tomorrow's meeting
+    Project Plan - 
+        Introduction - Morgan
+        Project organization - Morgan
+        Risk Analysis - Alex
+        Hardware/software reqs - Tyler Mathes
+        Work breakdown (UML Diagram) - Andrew
+        Project Schedule (Gantt Chart) - Tyler Howard
+        Monitoring and Reporting Mechanism - Discord / Meeting Notes - Tyler Mathes
+
+
+
