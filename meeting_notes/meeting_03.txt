@@ -1,0 +1,36 @@
+Date: November 8, 2026
+Time: 8:00 PM EST
+Recorder: Tyler Howard
+
+
+Attendees:
+    Tyler Howard
+    Andrew Smith
+    Alex Sampson
+    Jalen Gillespie
+    Tyler Mathes
+
+
+Agenda:
+    M03 Instructor Check-In
+    M03 DB - Project Analysis and Design
+    M03 Requirements Document
+    M03 DevOps Tool Chain Document
+
+
+General Updates:
+    Project Plan - Still waiting on completion of Tyler Mathes's section
+    Reviewed this week's assignments
+    Discussed programming tasks
+    Delegated tasks to all members
+
+    
+Action Items (Description / Assignee):
+    Tyler Howard - Create a Google Doc for shared access to Requirements Doc and Tool Chain Doc
+    Review Chapter 5 and follow up on DevOps Tool Chain Doc  - Everyone
+    Andrew / Morgan - Gather assets for the game (visual, audio)
+    Tyler Howard - Start maze procedural generation
+    Alex - Create game loop for math question prompts
+    Tyler Mathes - Make UI components (Score, level number, key quantity) 
+    Jalen - Work on docs that need to be submitted this week. Look ahead at next week's assignments or start putting together final slideshow
+
