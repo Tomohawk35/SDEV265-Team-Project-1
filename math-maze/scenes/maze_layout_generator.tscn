@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://0yti5lqgsneb"]
+
+[ext_resource type="Script" uid="uid://yrlla51bm1xr" path="res://scripts/maze_layout_generator.gd" id="1_dry51"]
+
+[node name="MazeLayoutGenerator" type="Control" unique_id=1688390151]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_dry51")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=821833605]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer" unique_id=901222383]
+layout_mode = 2
+
+[node name="PanelContainer" type="PanelContainer" parent="MarginContainer/HBoxContainer" unique_id=947888730]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/HBoxContainer/PanelContainer" unique_id=1979940955]
+layout_mode = 2
+theme_override_constants/margin_left = 8
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 8
+theme_override_constants/margin_bottom = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer" unique_id=832548490]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer" unique_id=151241852]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Label" type="Label" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer" unique_id=1551189603]
+layout_mode = 2
+text = "Difficulty:"
+
+[node name="GenerateButton" type="Button" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer" unique_id=280734572]
+unique_name_in_owner = true
+layout_mode = 2
+text = "Generate"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer" unique_id=1625345577]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer2" unique_id=141014248]
+layout_mode = 2
+
+[node name="DifficultyLabel" type="Label" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer2/HBoxContainer" unique_id=442232534]
+unique_name_in_owner = true
+layout_mode = 2
+text = "1"
+
+[node name="VBoxContainer" type="HBoxContainer" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer2/HBoxContainer" unique_id=1711689439]
+layout_mode = 2
+
+[node name="UpDifficultyButton" type="Button" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer" unique_id=1900459465]
+unique_name_in_owner = true
+layout_mode = 2
+text = "+"
+
+[node name="DownDifficultyButton" type="Button" parent="MarginContainer/HBoxContainer/PanelContainer/MarginContainer/HBoxContainer/VBoxContainer2/HBoxContainer/VBoxContainer" unique_id=1111030724]
+unique_name_in_owner = true
+layout_mode = 2
+text = "-"
+
+[node name="PanelContainer2" type="PanelContainer" parent="MarginContainer/HBoxContainer" unique_id=349201148]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="GridLayoutDisplay" type="RichTextLabel" parent="MarginContainer/HBoxContainer/PanelContainer2" unique_id=238692323]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 12
+bbcode_enabled = true
+text = "grid layout"
+fit_content = true
+horizontal_alignment = 1
+vertical_alignment = 1
