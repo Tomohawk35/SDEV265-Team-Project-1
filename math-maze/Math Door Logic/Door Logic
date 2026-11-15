@@ -1,0 +1,30 @@
+extends Area2D
+
+# This is like a class attribute in Python
+var is_player_near = false
+var math_scene = preload("res://scenes/math_popup.tscn")
+
+func _ready():
+    # Connect to the area_entered signal
+    # This is like: signal.connect(my_callback)
+    area_entered.connect(_on_area_entered)
+    area_exited.connect(_on_area_exited)
+
+func _on_area_entered(other):
+    # Check if the thing that entered is the player
+    if other.is_in_group("player"):
+        is_player_near = true
+
+func _on_area_exited(other):
+    if other.is_in_group("player"):
+        is_player_near = false
+
+func _process(_delta):
+    # Like a per-frame check, similar to a game loop
+    if is_player_near and Input.is_action_just_pressed("interact"):
+        open_math_popup()
+
+func open_math_popup():
+    # Create the popup scene and add it to the UI layer
+    var popup = math_scene.instantiate()
+    get_tree().root.get_node("CanvasLayer").add_child(popup)
