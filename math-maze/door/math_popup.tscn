@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://dan15bjrk3vk2"]
+
+[ext_resource type="Script" uid="uid://6jja8xvb83eb" path="res://door/math_popup.gd" id="1_5qtx2"]
+
+[node name="Control" type="Control" unique_id=1756273575]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_5qtx2")
+
+[node name="QuestionLabel" type="Label" parent="." unique_id=2092446970]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -75.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "I am a text problem
+
+Answer: "
+script = ExtResource("1_5qtx2")
+
+[node name="AnswerInput" type="LineEdit" parent="." unique_id=257540069]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -31.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_5qtx2")
+
+[node name="SubmitButton" type="Button" parent="." unique_id=1517376961]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = -8.0
+offset_right = 4.0
+grow_horizontal = 2
+grow_vertical = 0
+script = ExtResource("1_5qtx2")

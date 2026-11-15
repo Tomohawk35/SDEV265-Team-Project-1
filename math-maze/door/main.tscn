@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://sr8dydw7kpyy"]
+
+[ext_resource type="PackedScene" uid="uid://b5gqfbr2bpm71" path="res://door/door.tscn" id="1_w2vg3"]
+[ext_resource type="PackedScene" uid="uid://dk8c2plh38kmw" path="res://door/player.tscn" id="2_nnxag"]
+[ext_resource type="PackedScene" uid="uid://dan15bjrk3vk2" path="res://door/math_popup.tscn" id="3_nnxag"]
+
+[node name="main" type="Node2D" unique_id=1490699729]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1717274701]
+
+[node name="Door" parent="." unique_id=1508636753 instance=ExtResource("1_w2vg3")]
+position = Vector2(65, 68)
+
+[node name="player" parent="." unique_id=586734406 instance=ExtResource("2_nnxag")]
+position = Vector2(241, 68)
+
+[node name="Control" parent="." unique_id=1756273575 instance=ExtResource("3_nnxag")]
+metadata/_edit_use_anchors_ = true
