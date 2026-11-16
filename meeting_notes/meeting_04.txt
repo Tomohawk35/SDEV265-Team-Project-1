@@ -1,0 +1,29 @@
+Date: November 15, 2026
+Time: 8:00 PM EST
+Recorder: Andrew Smith
+
+Attendees:
+	Tyler Howard
+	Andrew Smith
+	Morgan Taylor
+	Alex Sampson
+
+Agenda: 
+	M04 Team Meeting
+	M04 Design Document
+	M04 Midpoint Project Progress Survey
+
+
+General Updates:
+	Discussed UML diagram flaws - UML currently submitted is incorrectly done
+	Reviewed programming tasks - particularly math questions database
+	Work on M04 Design Document in particular - some questions remain on what to actually do with 
+
+
+Action Items (Description / Assignee):
+	EVERYONE: UML diagrams, math problems for game and Design Doc assignment
+	Andrew: Finish finding royalty free music
+	Morgan: Work on enemy graphic design
+	Jalen: Design Document
+	Tyler M: Finish UI design
+	Tyler H: Maze implementation 
