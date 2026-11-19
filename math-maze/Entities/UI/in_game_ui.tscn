@@ -1,5 +1,9 @@
 [gd_scene format=3 uid="uid://cns00w3mjvpj"]
 
+[ext_resource type="Texture2D" uid="uid://d3i4s51b2jyxw" path="res://assets/IMG_0077.png" id="1_21rcw"]
+[ext_resource type="Texture2D" uid="uid://bhbp8gjumkc77" path="res://assets/IMG_0078.png" id="2_8arb0"]
+[ext_resource type="Texture2D" uid="uid://bpp6b1mt8rnfj" path="res://assets/IMG_0079.png" id="3_qr473"]
+
 [node name="inGameUI" type="Control" unique_id=1189796819]
 layout_mode = 3
 anchors_preset = 15
@@ -22,24 +26,30 @@ layout_mode = 2
 
 [node name="TextureRect - RedKey" type="TextureRect" parent="KeyHUD/PanelContainer/VBoxContainer/HBoxContainer - RedRow" unique_id=1861747064]
 layout_mode = 2
+texture = ExtResource("1_21rcw")
 
 [node name="Label - RedCount" type="Label" parent="KeyHUD/PanelContainer/VBoxContainer/HBoxContainer - RedRow" unique_id=294351929]
 layout_mode = 2
+text = "0"
 
 [node name="HBoxContainer - GreenRow" type="HBoxContainer" parent="KeyHUD/PanelContainer/VBoxContainer" unique_id=838142298]
 layout_mode = 2
 
 [node name="TextureRect - GreenKey" type="TextureRect" parent="KeyHUD/PanelContainer/VBoxContainer/HBoxContainer - GreenRow" unique_id=1221277212]
 layout_mode = 2
+texture = ExtResource("2_8arb0")
 
 [node name="Label - GreenCount" type="Label" parent="KeyHUD/PanelContainer/VBoxContainer/HBoxContainer - GreenRow" unique_id=2141313653]
 layout_mode = 2
+text = "0"
 
 [node name="HBoxContainer - BlueRow" type="HBoxContainer" parent="KeyHUD/PanelContainer/VBoxContainer" unique_id=1777111930]
 layout_mode = 2
 
 [node name="TextureRect - BlueKey" type="TextureRect" parent="KeyHUD/PanelContainer/VBoxContainer/HBoxContainer - BlueRow" unique_id=1982553846]
 layout_mode = 2
+texture = ExtResource("3_qr473")
 
 [node name="Label - BlueCount" type="Label" parent="KeyHUD/PanelContainer/VBoxContainer/HBoxContainer - BlueRow" unique_id=1773507491]
 layout_mode = 2
+text = "0"
