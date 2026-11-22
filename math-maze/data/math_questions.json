@@ -1,0 +1,34 @@
+{
+    "difficulty": {
+        "1": [
+            {
+                "question": "What is 2 + 2?",
+                "answer": "4"
+            },
+            {
+                "question": "What is 5 - 3?",
+                "answer": "2"
+            }
+        ],
+        "2": [
+            {
+                "question": "What is 12 * 3?",
+                "answer": "36"
+            },
+            {
+                "question": "What is 15 / 5?",
+                "answer": "3"
+            }
+        ],
+        "3": [
+            {
+                "question": "What is the square root of 49?",
+                "answer": "7"
+            },
+            {
+                "question": "What is 2^5?",
+                "answer": "32"
+            }
+        ]
+    }
+}
