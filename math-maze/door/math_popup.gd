@@ -7,15 +7,17 @@ extends Control
 var correct_answer = 0
 
 func _ready() -> void:
+	answer_input.grab_focus()
+
+	print("Focus:", answer_input.has_focus())
+
 	# Generate a simple math problem
-	var a = randi() % 10 + 1  # random number 1-10
-	var b = randi() % 10 + 1  # random number 1-10
+	var a = randi() % 10 + 1
+	var b = randi() % 10 + 1
 	correct_answer = a * b
 
-	# Set the label text (like Python's label.text = "...")
 	question_label.text = "What is " + str(a) + " × " + str(b) + "?"
 
-	# Connect the button's "pressed" signal to our check function
 	submit_button.pressed.connect(_on_submit)
 
 func _on_submit():
