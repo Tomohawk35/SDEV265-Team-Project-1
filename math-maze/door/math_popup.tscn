@@ -2,7 +2,20 @@
 
 [ext_resource type="Script" uid="uid://6jja8xvb83eb" path="res://door/math_popup.gd" id="1_5qtx2"]
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_w2vg3"]
+bg_color = Color(0.14117648, 0.078431375, 0.19607843, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(1, 0.8352941, 0.2901961, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
 [node name="Control" type="Control" unique_id=1756273575]
+process_mode = 2
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -11,41 +24,49 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_5qtx2")
 
-[node name="QuestionLabel" type="Label" parent="." unique_id=2092446970]
-layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -75.0
-grow_horizontal = 2
-grow_vertical = 0
-text = "I am a text problem
+[node name="Panel" type="Panel" parent="." unique_id=1671568520]
+self_modulate = Color(0.9372549, 0.9411765, 0.95686275, 1)
+custom_minimum_size = Vector2(400, 200)
+layout_mode = 0
+offset_left = 300.0
+offset_top = 200.0
+offset_right = 700.0
+offset_bottom = 400.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_w2vg3")
 
-Answer: "
-script = ExtResource("1_5qtx2")
-
-[node name="AnswerInput" type="LineEdit" parent="." unique_id=257540069]
+[node name="QuestionLabel" type="Label" parent="Panel" unique_id=2092446970]
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 1
-anchors_preset = 12
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = -31.0
-grow_horizontal = 2
-grow_vertical = 0
-script = ExtResource("1_5qtx2")
-
-[node name="SubmitButton" type="Button" parent="." unique_id=1517376961]
-layout_mode = 1
-anchors_preset = 7
+anchors_preset = 5
 anchor_left = 0.5
-anchor_top = 1.0
 anchor_right = 0.5
-anchor_bottom = 1.0
-offset_left = -4.0
-offset_top = -8.0
-offset_right = 4.0
+offset_left = -180.0
+offset_top = 20.0
+offset_right = 180.0
+offset_bottom = 95.0
 grow_horizontal = 2
+theme_override_colors/font_color = Color(0.9098039, 0.78431374, 0.2901961, 1)
+theme_override_font_sizes/font_size = 48
+
+[node name="AnswerInput" type="LineEdit" parent="Panel" unique_id=257540069]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 30.0
+offset_top = -83.0
+offset_right = 250.0
+offset_bottom = -30.0
 grow_vertical = 0
-script = ExtResource("1_5qtx2")
+theme_override_colors/font_color = Color(0.9098039, 0.78431374, 0.2901961, 1)
+theme_override_font_sizes/font_size = 32
+
+[node name="SubmitButton" type="Button" parent="Panel" unique_id=1517376961]
+layout_mode = 0
+offset_left = 270.0
+offset_top = 117.0
+offset_right = 377.0
+offset_bottom = 170.0
+theme_override_colors/font_color = Color(0.9098039, 0.78431374, 0.2901961, 1)
+theme_override_font_sizes/font_size = 32
+text = "Attack"
