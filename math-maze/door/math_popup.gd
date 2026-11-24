@@ -1,13 +1,23 @@
 extends Control
 
-@onready var question_label = $QuestionLabel
-@onready var answer_input = $AnswerInput
-@onready var submit_button = $SubmitButton
+@onready var question_label = $Panel/QuestionLabel
+@onready var answer_input = $Panel/AnswerInput
+@onready var submit_button = $Panel/SubmitButton
 
 var correct_answer = 0
 
 # Change this later when you hook it into level selection
 var difficulty = 1
+
+func adjust_question_font():
+	var length = question_label.text.length()
+
+	if length < 15:
+		question_label.add_theme_font_size_override("font_size", 36)
+	elif length < 25:
+		question_label.add_theme_font_size_override("font_size", 28)
+	else:
+		question_label.add_theme_font_size_override("font_size", 22)
 
 func _ready() -> void:
 	answer_input.call_deferred("grab_focus")
