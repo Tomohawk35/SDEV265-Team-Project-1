@@ -1,0 +1,29 @@
+Date: November 23, 2026
+Time: 8:00 PM EST
+Recorder: Tyler Howard
+
+Attendees:
+	Tyler Howard
+	Andrew Smith
+	Morgan Taylor
+	Alex Sampson
+	Jalen Gillespie
+    Tyler Mathes
+
+
+Agenda: 
+	M04 Design Document
+	M04 Midpoint Project Progress Survey
+	Next weeks activities
+
+
+General Updates:
+	Discussed actions needed to finish up the Design doc for submittal
+	Discussed next steps on the project
+	Andrew will be out Nov 29
+	Alex will be out Dec 6 - Dec 13
+
+
+Action Items (Description / Assignee):
+	EVERYONE: Wrap up the Design Doc. Start looking at future assignments to begin work on.
+	Tyler M, Tyler H, Alex: Continue working on project code 
