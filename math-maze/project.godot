@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Math Maze"
+run/main_scene="uid://heq6v7jlqten"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 

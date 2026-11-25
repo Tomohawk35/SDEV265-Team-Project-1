@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://ck14sfy1cvlos"]
+
+[ext_resource type="Script" uid="uid://b5r1qt8nir02w" path="res://Entities/UI/key_overlay.gd" id="1_u53g3"]
+[ext_resource type="Texture2D" uid="uid://bhbp8gjumkc77" path="res://assets/IMG_0078.png" id="2_bi3wx"]
+[ext_resource type="FontFile" uid="uid://chnfaw0nox8vf" path="res://assets/Fonts/VT323-Regular.ttf" id="3_kyjg5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8fam5"]
+bg_color = Color(0.21960784, 0.13333334, 0.21960784, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.9529412, 0.6431373, 0.7882353, 1)
+shadow_color = Color(0.08627451, 0.047058824, 0.105882354, 1)
+shadow_size = 4
+shadow_offset = Vector2(0, 4)
+anti_aliasing = false
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_im0yt"]
+atlas = ExtResource("2_bi3wx")
+region = Rect2(6.995796, 6.997212, 6.9991837, 16.015022)
+filter_clip = true
+
+[node name="KeyOverlay" type="CanvasLayer" unique_id=713363370]
+script = ExtResource("1_u53g3")
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=241332779]
+custom_minimum_size = Vector2(110, 68)
+anchors_preset = -1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -144.0
+offset_top = 16.0
+offset_right = -16.0
+offset_bottom = 104.0
+grow_horizontal = 0
+theme_override_styles/panel = SubResource("StyleBoxFlat_8fam5")
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer" unique_id=89058715]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer" unique_id=364982294]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="GreenKeyContainer" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer" unique_id=1392735376]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 4
+
+[node name="GreenKeyIcon" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer/GreenKeyContainer" unique_id=700189601]
+texture_filter = 1
+custom_minimum_size = Vector2(21, 48)
+layout_mode = 2
+texture = SubResource("AtlasTexture_im0yt")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="GreenKeyCount" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/GreenKeyContainer" unique_id=1919356652]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.9764706, 0.827451, 0.9019608, 1)
+theme_override_fonts/font = ExtResource("3_kyjg5")
+theme_override_font_sizes/font_size = 34
+text = "x 0"
+horizontal_alignment = 2
+vertical_alignment = 1
